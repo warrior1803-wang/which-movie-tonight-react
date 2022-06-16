@@ -1,0 +1,9 @@
+myObj = {
+    "name":"runoob",
+    "alexa":10000,
+    "sites": {
+        "site1":"www.runoob.com",
+        "site2":"m.runoob.com",
+        "site3":"c.runoob.com"
+    }
+}
