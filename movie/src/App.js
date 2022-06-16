@@ -2,7 +2,7 @@
 
 import React from 'react';
 import MovieSelect from './components/MovieSelect';
-import background from'./images/background2.jpg'
+import './App.css'
 function App() {
   
   // const [movie, setmovie] = useState('')
@@ -10,12 +10,6 @@ function App() {
   return (
     <div className="App"
     style={{
-      width: '100vw',
-      height: '100vh',
-      backgroundImage: `url(${background})`,
-      backgroundPosition: 'center',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center'

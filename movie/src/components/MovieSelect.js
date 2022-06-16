@@ -1,6 +1,5 @@
 import React, {  useState } from "react";
 import films from "../films_data/films.json";
-import Card from "./Card";
 
 import './MovieSelect.css'
 export default function MovieSelect() {
@@ -63,13 +62,8 @@ console.log(randomLink);
   };
   return (
     <div >
-      <Card movie={movie}
-      year={year}
-      rating={rating}
-      IMG_PATH={IMG_PATH}
-      WEB_IMDB={WEB_IMDB}></Card>
       <h1>which movie for tonight?</h1>
-     <button onClick={chooseMovie}>choose</button>
+      <button onClick={chooseMovie}>choose</button>
       {/* <Button variant="outline-primary" size="md" onClick={chooseMovie}>Choose</Button>
       <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src={IMG_PATH}/>
@@ -93,8 +87,8 @@ console.log(randomLink);
     {/* <Card.Link href="#">Another Link</Card.Link> */}
   {/* </Card.Body>
 </Card> */}
-    
-       {/* <h2>{movie}</h2>
+     <div>
+       <h2>{movie}</h2>
        <h3>Realse-Year: {year}</h3>
        <h3>Rating: {rating}</h3>
        <h3>Genre:</h3>
@@ -103,7 +97,7 @@ console.log(randomLink);
        ))}</h4>
      <img src={IMG_PATH} alt="" />
      <p>{intro}</p>
-     <a href={WEB_IMDB}>IMDB</a> */}
+     <a href={WEB_IMDB}>IMDB</a></div>
      
     </div>
   );
