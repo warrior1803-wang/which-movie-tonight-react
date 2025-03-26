@@ -1,7 +1,6 @@
-#Visit the website:
-[https://warrior1803-wang.github.io/which-movie-tonight-react/
-]([http://localhost:3000](https://warrior1803-wang.github.io/which-movie-tonight-react/
-))
+# Visit the website:
+
+[https://warrior1803-wang.github.io/which-movie-tonight-react/](https://warrior1803-wang.github.io/which-movie-tonight-react/)
 
 # Getting Started with Create React App
 
